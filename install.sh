@@ -14,7 +14,7 @@ do
 
     # Install codestyles
     mkdir -p $i/codestyles
-    cp -frv "$CONFIGS/codestyles"/* $i/codestyles
+    cp -frvL "$CONFIGS/codestyles"/* $i/codestyles
 
     # Install inspections
     # mkdir -p $i/inspection
@@ -22,7 +22,7 @@ do
 
     # Install options ("Exclude from Import and Completion")
     mkdir -p $i/options
-    cp -frv "$CONFIGS/options"/* $i/options
+    cp -frLv "$CONFIGS/options"/* $i/options
   fi
 done
 
