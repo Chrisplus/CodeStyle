@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "Intalling IntelliJ configs..."
 CONFIGS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs"
 
